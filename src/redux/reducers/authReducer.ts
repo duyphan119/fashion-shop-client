@@ -15,7 +15,30 @@ const initialState: State = {
 const slice = createSlice({
 	name,
 	initialState,
-	reducers: {},
+	reducers: {
+		register: (state, action: PayloadAction<any>) => {
+			state.profile = action.payload.account;
+			state.accessToken = action.payload.accessToken;
+			localStorage.setItem("AT", state.accessToken);
+		},
+		login: (state, action: PayloadAction<any>) => {
+			state.profile = action.payload.account;
+			state.accessToken = action.payload.accessToken;
+			localStorage.setItem("AT", state.accessToken);
+		},
+		updateProfile: (state, action: PayloadAction<any>) => {
+			state.profile = action.payload;
+		},
+		refreshToken: (state, action: PayloadAction<string>) => {
+			state.accessToken = action.payload;
+			localStorage.setItem("AT", state.accessToken);
+		},
+		logout: (state, action: PayloadAction<any>) => {
+			state.profile = null;
+			state.accessToken = "";
+			localStorage.removeItem("AT");
+		},
+	},
 });
 
 export const authActions = slice.actions;
