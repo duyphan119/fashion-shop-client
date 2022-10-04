@@ -1,0 +1,162 @@
+[
+	{
+		"id": 1,
+		"name": "Áo Polo Nữ Tay Ngắn Pique Mắt Chim Phối Bo Thoáng Khí",
+		"alias": "ao-polo-nu-tay-ngan-pique-mat-chim-phoi-bo",
+		"price": 289000,
+		"newPrice": 289000,
+		"thumbnail": "https://bizweb.sapocdn.net/thumb/large/100/438/408/products/apn3340-dml-cjn3030-cba-5.jpg?v=1664764733000",
+		"description": "",
+		"details": "",
+		"createdAt": "2021-10-22T10:20:36",
+		"updatedAt": "2022-09-11T22:45:25",
+		"productVariants": [
+			{
+				"id": 1,
+				"title": "Đen / S",
+				"inventory": 300,
+				"sku": "APN3340-DEN-S",
+				"thumbnail": "https://bizweb.sapocdn.net/thumb/small/100/438/408/products/apn3340-dml-cjn3030-cba-5.jpg?v=1664764733953",
+				"variantValueIdThumbnail": 1,
+				"weight": 200,
+				"variantValues": [
+					{
+						"id": 1,
+						"value": "Đen",
+						"variantId": 1
+					},
+					{
+						"id": 2,
+						"value": "S",
+						"variantId": 2
+					}
+				]
+			}
+		],
+		"productImages": [
+			{
+				"id": 1,
+				"variantValueIdThumbnail": 1,
+				"url": "https://bizweb.sapocdn.net/100/438/408/products/apn3340-dml-cjn3030-cba-5.jpg?v=1664764733953"
+			},
+			{
+				"id": 2,
+				"variantValueIdThumbnail": 1,
+				"url": "https://bizweb.sapocdn.net/100/438/408/products/apn3340-dml-cjn3030-cba-2.jpg?v=1664764733953"
+			},
+			{
+				"id": 3,
+				"variantValueIdThumbnail": 1,
+				"url": "https://bizweb.sapocdn.net/100/438/408/products/apn3340-dml-cjn3030-cba-1.jpg?v=1664764733953"
+			}
+		],
+		"categories": [
+			{
+				"id": 1,
+				"name": "Thời trang nữ",
+				"label": "Nữ",
+				"parentId": null,
+				"parent": null,
+				"children": [
+					{
+						"id": 2,
+						"name": "Áo nữ",
+						"label": "Áo nữ",
+						"parentId": null,
+						"parent": {
+							"id": 1,
+							"name": "Thời trang nữ",
+							"label": "Nữ",
+							"parentId": null,
+							"parent": null,
+							"children": null,
+							"alias": "nu",
+							"description": "Thời Trang Nữ - Quần Áo Nữ Đẹp, Mới Nhất | YODY"
+						},
+						"children": null,
+						"alias": "ao-nu",
+						"description": "Áo Nữ Thời Trang - Bộ Sưu Tập Áo Nữ Trẻ Trung 2022 | YODY"
+					}
+				],
+				"alias": "nu",
+				"description": "Thời Trang Nữ - Quần Áo Nữ Đẹp, Mới Nhất | YODY"
+			},
+			{
+				"id": 2,
+				"name": "Áo nữ",
+				"label": "Áo nữ",
+				"parentId": null,
+				"parent": {
+					"id": 1,
+					"name": "Thời trang nữ",
+					"label": "Nữ",
+					"parentId": null,
+					"parent": null,
+					"children": null,
+					"alias": "nu",
+					"description": "Thời Trang Nữ - Quần Áo Nữ Đẹp, Mới Nhất | YODY"
+				},
+				"children": [
+					{
+						"id": 3,
+						"name": "Áo Polo nữ",
+						"label": "Áo Polo nữ",
+						"parentId": null,
+						"parent": {
+							"id": 2,
+							"name": "Áo nữ",
+							"label": "Áo nữ",
+							"parentId": null,
+							"parent": {
+								"id": 1,
+								"name": "Thời trang nữ",
+								"label": "Nữ",
+								"parentId": null,
+								"parent": null,
+								"children": null,
+								"alias": "nu",
+								"description": "Thời Trang Nữ - Quần Áo Nữ Đẹp, Mới Nhất | YODY"
+							},
+							"children": null,
+							"alias": "ao-nu",
+							"description": "Áo Nữ Thời Trang - Bộ Sưu Tập Áo Nữ Trẻ Trung 2022 | YODY"
+						},
+						"children": null,
+						"alias": "ao-polo-nu",
+						"description": "Áo Polo Nữ - Áo Thun Có Cổ Nữ Chất Liệu Tốt Bền Đẹp | YODY"
+					}
+				],
+				"alias": "ao-nu",
+				"description": "Áo Nữ Thời Trang - Bộ Sưu Tập Áo Nữ Trẻ Trung 2022 | YODY"
+			},
+			{
+				"id": 3,
+				"name": "Áo Polo nữ",
+				"label": "Áo Polo nữ",
+				"parentId": null,
+				"parent": {
+					"id": 2,
+					"name": "Áo nữ",
+					"label": "Áo nữ",
+					"parentId": null,
+					"parent": {
+						"id": 1,
+						"name": "Thời trang nữ",
+						"label": "Nữ",
+						"parentId": null,
+						"parent": null,
+						"children": null,
+						"alias": "nu",
+						"description": "Thời Trang Nữ - Quần Áo Nữ Đẹp, Mới Nhất | YODY"
+					},
+					"children": null,
+					"alias": "ao-nu",
+					"description": "Áo Nữ Thời Trang - Bộ Sưu Tập Áo Nữ Trẻ Trung 2022 | YODY"
+				},
+				"children": null,
+				"alias": "ao-polo-nu",
+				"description": "Áo Polo Nữ - Áo Thun Có Cổ Nữ Chất Liệu Tốt Bền Đẹp | YODY"
+			}
+		]
+	}
+]

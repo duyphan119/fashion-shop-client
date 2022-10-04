@@ -9,6 +9,7 @@ export const LayoutClient: FC<Props> = ({ children }) => {
 	return (
 		<main>
 			<HeaderClient />
+			<div className="h-20"></div>
 			{children}
 			<FooterClient />
 		</main>

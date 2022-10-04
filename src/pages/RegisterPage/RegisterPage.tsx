@@ -85,7 +85,12 @@ export const RegisterPage = () => {
 						Đăng nhập
 					</Link>
 				</div>
-				<MyButton type="submit" disabled={mutation.isLoading} buttonClassName={`w-full mt-2 ${mutation.isLoading ? "opacity-80" : ""}`}>
+				<MyButton
+					type="submit"
+					disabled={mutation.isLoading}
+					loading={mutation.isLoading}
+					buttonClassName={`w-full mt-2 ${mutation.isLoading ? "opacity-80" : ""}`}
+				>
 					{mutation.isLoading ? "Đang tải..." : "Đăng ký"}
 				</MyButton>
 			</form>
